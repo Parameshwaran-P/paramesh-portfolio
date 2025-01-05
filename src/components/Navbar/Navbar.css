@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 170px;
+    margin: 10px 170px;
 }
 .company-logo{
     width: 250px;
@@ -99,7 +99,7 @@
    }
  @media(max-width:480px){
     .navbar{
-        margin: 35px 10px;
+        margin: 3px 10px;
       position: relative;
     }
     .nav-menu{

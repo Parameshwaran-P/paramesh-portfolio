@@ -100,7 +100,7 @@
 @media(max-width:786px){
     .about{
         gap: 80px;
-        margin: 50px 70px;
+        margin: 50px 50px;
         align-items: flex-start;
     }
     .about-title h1{
@@ -147,7 +147,6 @@
 .about{
     position: relative;
     margin-top: 40px;
-    margin: 0px 60px 0px;
     /* padding-left: 20px; */
 }
 .about-title{
@@ -169,14 +168,14 @@
 .about-skills{
     font-size: 15px;
     gap: 14px;
-    margin: 0px 40px 0px;
+    
 }
 .about_skill p{
     padding: 0 12px;
     font-size: 14px;
 }
 .about-achivements{
-    margin: 0px 40px 0px;
+    
     position: relative;
     gap: 22px;
 }
@@ -184,4 +183,5 @@
     font-size: 30px;
 
 }
+
 }
