@@ -101,7 +101,7 @@
 @media(max-width:786px){
     .about{
         gap: 80px;
-        margin: 50px 50px;
+        margin: 50px 30px;
         align-items: flex-start;
     }
     .about-title h1{
