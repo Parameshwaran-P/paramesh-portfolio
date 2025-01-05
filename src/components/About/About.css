@@ -147,7 +147,7 @@
 .about{
     position: relative;
     margin-top: 40px;
-    margin: 0px 40px 0px;
+    margin: 0px 60px 0px;
     /* padding-left: 20px; */
 }
 .about-title{
@@ -158,7 +158,7 @@
 .about-title h1{
     font-size: 40px;
     position: absolute;
-    /* left: 50px; */
+    left: 50px;
 }
 .about-title img{
     position: absolute;
