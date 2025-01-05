@@ -147,21 +147,21 @@
 .about{
     position: relative;
     margin: 20px 25px;
-    padding-left: 20px;
+    /* padding-left: 20px; */
 }
 .about-title{
     position: relative;
-    left: 30px;
+    /* left: 30px; */
 }
 .about-title h1{
     font-size: 40px;
     position: absolute;
-    left: 50px;
+    /* left: 50px; */
 }
 .about-title img{
     position: absolute;
     width: 130px;
-    left: 60px;
+    left: 40px;
     top: 10px;
 }
 .about-skills{
