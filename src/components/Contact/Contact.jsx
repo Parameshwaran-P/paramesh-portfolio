@@ -68,7 +68,7 @@ const Contact = () => {
             </div>
             <div className="contact-detail">
               <img src={location_icon} alt="" />
-              <p>483/OMR, Chennai, Tamilnadu-600041</p>
+              <p>483/OMR Express Highway, Chennai, Tamilnadu-600041</p>
             </div>
           </div>
         </div>
