@@ -111,6 +111,10 @@
     } 
 }
 @media(max-width:480px){
+    .services{
+        margin-top: 40px;
+        margin: 0px 40px 0px;
+    }
     .services-title{
         position: relative;
         left: 30px;
@@ -119,7 +123,7 @@
     .services-title h1{ 
         font-size: 35px;
         position: absolute;
-        left: 10px;
+        /* left: 10px; */
     }
     .services-title img{
         position: absolute;
