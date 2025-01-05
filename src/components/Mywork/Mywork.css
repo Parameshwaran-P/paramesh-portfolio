@@ -109,7 +109,7 @@
     .mywork-container {
       grid-template-columns: 1fr;
       margin: 80px 40px 0px;
-      gap: 60px;
+      gap: 70px;
     }
 
     .mywork-title{
