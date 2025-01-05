@@ -1,0 +1,140 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 170px;
+}
+.company-logo{
+    width: 250px;
+    height: 250px;
+}
+.underline{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    bottom: 52px;
+    left: 45px;
+    z-index: -1;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 20px;
+}
+.nav-connect{
+    padding: 20px 40px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C20 0.36%, #B923E1 102.06%);
+    /* background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%); */
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.nav-connect:hover{
+    transform: scale(1.05);
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+.nav-menu li img{
+    display: flex;
+    margin: auto;
+}
+.anchor-link{
+    text-decoration: none;
+    color: white;
+}
+.nav-mob-close{
+    display: none;
+}
+.nav-mob-open{
+    display: none;
+}
+
+@media(max-width: 786px){
+    .navbar{
+        margin: 20px 50px; 
+    }
+    .nav-connect{
+        display: none;
+    }
+   .nav-mob-open{
+    display: block;
+    position: relative;
+    right: 30px;
+   }
+   .nav-mob-close{
+    display: block;
+    position: relative;
+    top: 30px;
+    left: 260px;
+    width: 30px;
+   }
+   .nav-menu{
+    position: fixed;
+    flex-direction: column;
+    align-items: flex-start;
+    /* bottom: 0; */
+    justify-content: flex-start;
+    top: 0px;
+    gap: 30px;
+    background-color: #1F0016;
+    min-width: 350px;
+    height: 100%;
+    z-index: 2;
+    transition: right 0.5s ease-in-out;
+    right: -350px;
+   }
+   .nav-menu li{
+    font-size: 30px;
+    padding-left: 100px;
+    flex-direction: row;
+    gap: 20px;
+   }
+ @media(max-width:480px){
+    .navbar{
+        margin: 35px 10px;
+      position: relative;
+    }
+    .nav-menu{
+        min-width: 350px;
+    }
+    .nav-mob-open{
+        width: 30px;
+    }
+    .nav-mob-close{
+        position: relative;
+        width: 20px;
+        
+    }
+    .company-logo{
+        width: 200px;
+        height: 120px;
+    }
+    .nav-menu li{
+        font-size: 20px;
+        padding: 0 0 0 100px;
+        align-items: center;
+    }
+    .nav-menu li img{
+        height: 60px;
+        width: 80px;
+    }
+    .underline{
+        /* position: relative; */
+        /* position: absolute;
+        right: 40px;
+        top: 0;
+        bottom: 850px; */
+        left: -10px;
+        top: -5px;
+    }
+ }
+ 
+}
