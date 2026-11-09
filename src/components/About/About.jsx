@@ -16,8 +16,8 @@ const About = () => {
             </div>
             <div className='about-right'>
              <div className='about-para'>
-                <p>I am a passionate MERN stack developer focused on dynamic, responsive web applications. Expertise in MongoDB, MySQL, Express.js, React, and Node.js allows me to deliver user-focused, efficient, scalable web solutions.</p>
-                <p>As a MERN stack developer, I specialize in creating dynamic web applications. With skills in MongoDB, MySQL, Express.js, React, and Node.js, I deliver innovative, scalable, and responsive solutions tailored to your needs.</p>
+                <p>I am a passionate Fullstack developer focused on dynamic, responsive web applications. Expertise in MongoDB, MySQL, Express.js, React, and Node.js allows me to deliver user-focused, efficient, scalable web solutions.</p>
+                <p>As a Fullstack developer, I specialize in creating dynamic web applications. With skills in MongoDB, MySQL, Express.js, React, and Node.js, I deliver innovative, scalable, and responsive solutions tailored to your needs.</p>
              </div>
              <div className='about-skills'>
                 <div className="about_skill">
@@ -63,7 +63,7 @@ const About = () => {
              </div>
              <div className="about-achivements">
                 <div className="about-achivement">
-                    <h1>1+</h1>
+                    <h1>2+</h1>
                     <p>YEAR OF EXPRIENCE</p>
                 </div>
                 <hr />

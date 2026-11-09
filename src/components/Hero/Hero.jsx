@@ -22,7 +22,7 @@ const Hero = () => {
     <div id='home' className='hero'>
         <img src={profile_img} alt="" />
         <h1><span>I'am PARAMESH P<br/></span>Full-stack Developer based in India</h1>
-        <p>Welcome to my website! I’m a MERN Full Stack Developer dedicated to creating innovative and user-friendly web applications. Let’s collaborate to bring your ideas to life!</p>
+        <p>Welcome to my website! I’m a FullStack Developer dedicated to creating innovative and user-friendly web applications. Let’s collaborate to bring your ideas to life!</p>
         <div className="hero-action">
     
           <div className="hero-connect">
